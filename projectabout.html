@@ -1,0 +1,367 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Hello, world!</title>
+    <style>
+      .card{
+        position: relative;
+overflow: hidden;
+transition: 0.2s all;
+      }
+      .card-text{
+        position: absolute;
+        bottom: 100px;
+        left:0px;
+        right: 0px;
+        background-color: transparent;
+        overflow: hidden;
+        width: 100%;
+        height: 0;
+        transition: .5s ease-in;
+      }
+      .card-hover .card-text{
+        background-color: transparent;
+        height: 100%;
+      }
+      .para1{
+        color:white;
+        position: absolute;
+        box-sizing: border-box;
+        box-shadow: 5px 5px 5px #000;
+        top:50%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+        text-align: center;
+      }
+    </style>
+
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-md bg-secondary">
+      <button class="navbar-toggle" data-toggle="collapse" data-target="#navbar">MENU</button>
+      <div class="collapse navbar-collapse m-auto" id="navbar">
+ <ul  class="nav navbar-nav">
+     <li class="nav-item m-auto"><a class="nav-link"href="projecthome.html">HOME</a></li>
+     <li class="nav-item m-auto"><a class="nav-link"href="projectabout.html">ABOUT</a></li>
+     <li class="nav-item m-auto"><a class="nav-link"href="projectgallery.html">GALLERY</a></li>
+     <li class="nav-item m-auto"><a class="nav-link"href="projectcontact.html">CONTACT</a></li>  
+     <button type="button" class="btn btn-primary" data-target="#Modal" data-toggle="modal">Sign in</button>  
+ </ul>
+      </div>
+<div class="modal" id="Modal">
+<div class="modal-dialog">
+<div class="modal-content">
+  <div class="modal-header">
+    <h6>welcome to sign in page</h6>
+<button type="button" class="close" data-dismiss="modal">x</button>
+</button>    
+  </div>
+  <div class="modal-body">
+    <div>
+      <label for="a">username</label>
+      <input type="text" placeholder="enter username" name="user" id="a" required>
+    </div>
+    <div>
+    <label for="b">password</label>
+      <input type="password" placeholder="enter password " name="password" id="b" required>
+    </div>
+    <div>
+      <label for="">email</label>
+      <input type="email" placeholder="enter email" name="email" id="" required>
+    </div>
+    <div>
+      <label for="">mobile number</label>
+      <input type="number" placeholder="enter mobilenumber" name="number" id="" required>
+    </div>
+    </div>
+  <div class="modal-footer">
+    <button type="button" class="btn btn-danger" data-dismiss="modal">sign in</button>
+  </div>
+</div>
+</div>
+</div>
+  </nav>   
+
+<div class="jumbotron">
+  <div class="container m-1 p-1">
+    <div class="row">
+          <div class=" col-6 m-0 m-auto">
+            <h5>large library</h5>
+            <img src="largelibrary.jpg"width="250px" height="250px" alt="">  
+            <p> we designed our library in comfortable large library,and established it in the year of 2015.we started with few number of books but it expanded to uncountable .</p>
+        </div>
+            <div class="container">
+        <div class="col-6 m-0 p-0 m-auto">
+          <h6>bright future</h6>
+         <img src="brightfuture.png"width="250px" height="250px"  alt="">
+         <p>we designed this library to provide  bright future , for the people who dreamt of large enthusiastic ideas.</p>
+      </div>
+      <div class=" col-6 m-0  p-0 m-auto">
+        <h6>books</h6>
+       <img src="books.jpg"width="250px" height="250px"  alt="">
+       <p>we are providing high quality of books ,and variety types of books,as per reader convience and comfortness.</p>
+    </div>
+    <div class=" col-6 m-0 p-0  m-auto">
+      <h6>community</h6>
+     <img src="community.jpg"width="250px" height="250px"  alt="">
+     <p>my community is very dedicated people  towards the work, to maintain library progress increase.</p>
+  </div>
+    </div>
+  </div>
+</div>
+</div>
+
+  <div class="jumbotron2 bg-secondary">
+<div class="container text-danger">
+<div class="row">
+  <div class="col-3 ">
+    <i class="fa fa-smile-o" aria-hidden="true"></i>
+    <h6>foreign followers</h6> 
+   <h3>250</h3>
+   </div>
+   <div class="col-3">
+    <i class="fa fa-graduation-cap" aria-hidden="true"></i>
+    <h6>certified memmbers</h6> 
+   <h3>20</h3>
+   </div>
+   <div class="col-3">
+    <i class="fa fa-history" aria-hidden="true"></i>
+    <h6>years of experience</h6> 
+   <h3>5</h3>
+   </div>
+   <div class="col-3">
+    <i class="fa fa-users" aria-hidden="true"></i>
+    <h6>students enrolled</h6> 
+   <h3>999</h3>
+   </div>
+</div>
+</div>
+  </div>
+
+  <div class="jumbotron3">
+    <div class="container" >
+      
+      <div>
+        <h3>who makes the magic happen?</h3> 
+        <h1>know about them</h1>
+      </div>
+      <div class="row">
+        <div class="col-4 m-auto">
+          <div class="card">
+            <img src="librain.jpg"width="250px" height="250px"  alt="">
+            <div class="card-body">
+              <h6>librarian</h6>
+              <div class="card-text">
+               <div class="para1">
+ms.uma
+<i class="fa fa-envelope-o" aria-hidden="true"></i>
+<i class="fa fa-facebook-official" aria-hidden="true"></i>
+<i class="fa fa-twitter-square" aria-hidden="true"></i>
+                  </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-4  m-auto">
+          <div class="card">
+            <img src="library technian.jpg"width="250px" height="250px"  alt="">
+            <div class="card-body">
+              <h6>library technian</h6>
+              <div class="card-text">
+               <div class="para1">
+ms.ankitha
+<i class="fa fa-envelope-o" aria-hidden="true"></i>
+<i class="fa fa-facebook-official" aria-hidden="true"></i>
+<i class="fa fa-twitter-square" aria-hidden="true"></i>
+                  </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-4 m-auto">
+          <div class="card">
+            <img src="library assitant.jpg"width="250px" height="250px"  alt="">
+            <div class="card-body">
+              <h6> library assistants</h6>
+              <div class="card-text">
+               <div class="para1">
+ms.harshitha
+<i class="fa fa-envelope-o" aria-hidden="true"></i>
+<i class="fa fa-facebook-official" aria-hidden="true"></i>
+<i class="fa fa-twitter-square" aria-hidden="true"></i>
+                  </div>
+              </div>
+            </div>
+          </div>
+        </div>
+    </div>
+  </div>
+</div>
+</div>
+
+
+<div class="jumbotron4 bg-dark">
+  <div class="container"> 
+  <div class="text-success">
+    <h1 class="text-white"> about our services</h1>
+  </div>
+      <h3 class="text-danger">about our  library services</h3>
+      <div class="row">
+      <div class="col-4 m-auto">
+        <div class="card">
+<img src="alphabet order.jpg" alt="">
+<div class="card-body">
+  <h6>alphabetical order of books</h6>
+  <div class="card-text">
+    <p> arrange to make people comfort.</p>
+  </div>
+</div> 
+ </div>
+    </div>
+    <div class="col-4 m-auto">
+      <div class="card">
+<img src="read.jpg" alt="">
+<div class="card-body">
+<h6>freedom to read anywhere</h6>
+<div class="card-text">
+  <p>we gave freedom to read anywhere.</p>
+</div>
+</div> 
+</div>
+  </div>
+  <div class="col-4 m-auto">
+    <div class="card">
+<img src="faculty.jpg" alt="">
+<div class="card-body">
+<h6>freindly faculty</h6>
+<div class="card-text">
+<p>we have friendly faculty</p>
+</div>
+</div> 
+</div>
+</div>
+</div>
+</div> 
+<h3  class="text-success">about library canteen</h3>
+<div class="row">
+<div class="col-4 m-0 p-0 m-auto">
+ <div class="card" >
+<img src="water.jpg" alt="">
+<div class="card-body">
+<h6>water</h6>
+<div class="card-text">
+  <p>we are providing water</p>
+</div>
+</div> 
+</div>
+  </div>
+  <div class="col-4 m-0 p-0 m-auto">
+    <div class="card"  >
+<img src="fruits.jpg" alt="">
+<div class="card-body">
+<h6>healthy food</h6>
+<div class="card-text">
+<p> we are providing healthy food</p>
+</div>
+</div> 
+</div>
+</div>
+<div class="col-4 m-0 p-0 m-auto">
+  <div class="card" >
+<img src="snacks.jpg"  alt="">
+<div class="card-body">
+<h6>specialsnacks</h6>
+<div class="card-text">
+<p> we are providing specialsnacks</p>
+</div>
+</div> 
+</div>
+</div>
+</div>
+
+</div>
+
+<footer class="text-center text-white" style="background-color: #f1f1f1;">
+  <!-- Grid container -->
+  <div class="container pt-4">
+    <!-- Section: Social media -->
+    <section class="mb-4">
+      <!-- Facebook -->
+      <a
+        class="btn btn-link btn-floating btn-lg text-dark m-1"
+        href="#!"
+        role="button"
+        data-mdb-ripple-color="dark"
+        ><i class="fa fa-facebook-f"></i
+      ></a>
+
+      <!-- Twitter -->
+      <a
+        class="btn btn-link btn-floating btn-lg text-dark m-1"
+        href="#!"
+        role="button"
+        data-mdb-ripple-color="dark"
+        ><i class="fa fa-twitter"></i
+      ></a>
+
+      <!-- Google -->
+      <a
+        class="btn btn-link btn-floating btn-lg text-dark m-1"
+        href="#!"
+        role="button"
+        data-mdb-ripple-color="dark"
+        ><i class="fa fa-google"></i
+      ></a>
+
+      <!-- Instagram -->
+      <a
+        class="btn btn-link btn-floating btn-lg text-dark m-1"
+        href="#!"
+        role="button"
+        data-mdb-ripple-color="dark"
+        ><i class="fa fa-instagram"></i
+      ></a>
+
+      <!-- Linkedin -->
+      <a
+        class="btn btn-link btn-floating btn-lg text-dark m-1"
+        href="#!"
+        role="button"
+        data-mdb-ripple-color="dark"
+        ><i class="fa fa-linkedin"></i
+      ></a>
+      <!-- Github -->
+      <a
+        class="btn btn-link btn-floating btn-lg text-dark m-1"
+        href="#!"
+        role="button"
+        data-mdb-ripple-color="dark"
+        ><i class="fa fa-github"></i
+      ></a>
+    </section>
+    <!-- Section: Social media -->
+  </div>
+  <!-- Grid container -->
+
+  <!-- Copyright -->
+  <div class="text-center text-dark p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+    © 2020 Copyright:
+    <a class="text-dark" href=" ">ANKITHA'S LIBRARY.com</a>
+  </div>
+  <!-- Copyright -->
+</footer>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  </body>
+</html>
